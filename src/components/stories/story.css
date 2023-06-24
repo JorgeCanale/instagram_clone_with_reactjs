@@ -1,0 +1,41 @@
+.story{
+    width: 66px;
+}
+
+.sbc{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.ssc{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+
+}
+
+.container{
+    display: inline-block;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /* background: linear-gradient(to top right, orange , deeppink) */
+
+}
+
+.pfp{
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
