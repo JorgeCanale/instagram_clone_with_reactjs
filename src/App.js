@@ -1,19 +1,11 @@
 
 import './App.css';
-import Post from './components/post/post';
-import SideBar from "./components/sidebar/Sidebar"
-import StoriesSection from './components/stories/stories_section';
-import Clicking from './components/click';
-import Story from "./components/stories/story"
-import profile from "./assets/pfp2.jpg"
+import PorfileSlice from "./components/right_sidebar/profile_slice"
 
 function App() {
   return (
     <div className="App">
-      {/* <SideBar /> */}
-      <StoriesSection />
-      {/* <Post /> */}
-      {/* <Clicking /> */}
+      <PorfileSlice  uname="_deleted__bnjx" aname="Benji" />
     </div>
   );
 }
