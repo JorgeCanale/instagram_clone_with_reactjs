@@ -1,6 +1,6 @@
 import React from "react";
 import Story from "./story";
-import pfp from "../../assets/pfp2.jpg"
+import pfp from "../../assets/meica_pfp.jpg"
 import "./stories_section.css"
 
 
@@ -11,13 +11,17 @@ function StoriesSection(){
 
     return (
         <div className="stories_section">
-            {
-                users && users.map((user)=>{
-                    return(
-                        <Story pfps={user.pfp } user_name={user.user}/>
-                    )
-                })
-            }
+            <ul>
+                {
+                    users && users.map((user)=>{
+                        return(
+                            <li>
+                                <Story pfps={user.pfp } user_name={user.user}/>
+                            </li>
+                        )
+                    })
+                }
+            </ul>
         </div>
     )
 }
