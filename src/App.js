@@ -1,11 +1,11 @@
 
 import './App.css';
-import PorfileSlice from "./components/right_sidebar/profile_slice"
+import RightSideBar from './components/right_sidebar/right_sidebar';
 
 function App() {
   return (
     <div className="App">
-      <PorfileSlice  uname="_deleted__bnjx" aname="Benji" />
+      <RightSideBar />
     </div>
   );
 }
