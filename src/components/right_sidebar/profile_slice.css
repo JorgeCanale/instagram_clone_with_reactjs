@@ -53,9 +53,14 @@
 
 /* text styles */
 
+
+/* box sizing */
+
 .a1{
     box-sizing: border-box;
 }
+
+/* position */
 
 .a2{
     position: relative;
@@ -65,13 +70,27 @@
     position: static;
 }
 
+/* index */
+
 .a3{
     z-index: 0;
 }
 
+/* display  */
+
 .a4{
     display: flex;
 }
+
+.b4{
+    display: block;
+}
+
+.c4{
+    display: inline;
+}
+
+/* flex */
 
 .a5{
     flex-grow: 1;
@@ -84,31 +103,6 @@
 .b6{
     flex-shrink: 0;
 }
-
-.a7{
-    min-width: 0;
-}
-
-.a8{
-    justify-content: center;
-}
-
-.b8{
-    justify-content: flex-start;
-}
-
-.a9{
-    align-items: center;
-}
-
-.b9{
-    align-items: flex-start;
-}
-
-.c9{
-    align-self: auto;
-}
-
 
 .a10{
     flex-wrap: wrap;
@@ -126,19 +120,100 @@
     flex-basis: auto;
 }
 
+/* width */
 
+.a7{
+    min-width: 0;
+}
 
 .b13{
     max-width: 100%;
 }
 
+/* heigh */
+
 .b14{
     min-height: 0;
+}
+
+
+/* justify */
+
+.a8{
+    justify-content: center;
+}
+
+.b8{
+    justify-content: flex-start;
+}
+
+/* align */
+
+.a9{
+    align-items: center;
+}
+
+.b9{
+    align-items: flex-start;
+}
+
+
+.c9{
+    align-self: auto;
+}
+
+.d9{
+    align-items: stretch;
 }
 
 .b15{
     align-content: stretch;
 }
+
+
+/* margin */
+
+.a16{
+    margin-bottom: 0;
+}
+
+.b16{
+    margin-left: 4px;
+}
+
+/* font */
+
+.a17{
+    font-weight: 600;
+}
+
+/* white-space */
+
+.a18{
+    white-space: pre-line;
+}
+
+.b18{
+    white-space: nowrap;
+}
+
+
+/* word */
+
+.a19{
+    word-wrap: break-word;
+}
+
+/* text */
+
+.a20{
+    text-overflow: ellipsis;
+}
+
+
+
+
+
 
 
 
