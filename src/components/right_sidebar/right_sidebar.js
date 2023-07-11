@@ -1,8 +1,8 @@
 import React from "react";
 import ProfileSlice from "./profile_slice";
-import pfp from "../../assets/benji_pfp.jpg"
-import "./right_sidebar.css"
-function Right_side_bar(){
+
+
+ function Right_side_bar(){
 
     const sugestedProfiles = [{user:"_deleted__bnjx", account:"benji"}, 
     {user:"_deleted__bnjx", account:"benji"}, 
@@ -15,7 +15,7 @@ function Right_side_bar(){
         <div className="bar _barr">
             <div>
                 <div>
-                    <ProfileSlice />
+                    <ProfileSlice width={11} />
                 </div>
             </div>
             <div className="suggestions">
