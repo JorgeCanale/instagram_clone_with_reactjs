@@ -24,7 +24,7 @@ function ProfileSlice ({uname,aname, alink}){
                     <div className="box-border flex grow min-w-0 static justify-start items-start flex-col min-h-0 content-stretch self-auto "> 
                         <span className=" relative min-w-0 mb-0  whitespace-pre-line  block max-w-full " dir="auto">
                             <span className="font-semibold text-ellipsis block max-w-full whitespace-nowrap">
-                                <div className="box-border flex flex-row pos justify-start content-stretch whitespace-nowrap items-stretch">
+                                <div className="box-border flex flex-row static justify-start content-stretch whitespace-nowrap items-stretch">
                                     <div className="inline">
                                         <div className="inline">
                                             <a className="inline" href={alink}>{uname}</a>

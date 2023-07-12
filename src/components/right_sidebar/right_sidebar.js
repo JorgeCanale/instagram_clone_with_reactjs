@@ -12,7 +12,7 @@ import ProfileSlice from "./profile_slice";
 
     return(
         <>
-        <div className="bar _barr">
+        <div className=" left-984 sticky">
             <div>
                 <div>
                     <ProfileSlice width={11} />
