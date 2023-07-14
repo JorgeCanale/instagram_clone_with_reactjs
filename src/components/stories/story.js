@@ -1,19 +1,19 @@
 import React from "react";
-import "./story.css"
+import "./story.css";
 
-function Story({pfps,user_name}){
-    return (
-        <div className="story">
-            <button className="sbc">
-                <div className="ssc">
-                    <div className="container">
-                        <img className="pfp" src={pfps} alt="pfp"/>
-                    </div>
-                </div>
-                <div className="username">{user_name}</div>
-            </button>
+function Story({ pfps, user_name }) {
+  return (
+    <div className="story">
+      <button className="sbc">
+        <div className="ssc">
+          <div className="container">
+            <img className="pfp" src={pfps} alt="pfp" />
+          </div>
         </div>
-    )
+        <div className="username">{user_name}</div>
+      </button>
+    </div>
+  );
 }
 
-export default Story
+export default Story;

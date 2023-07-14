@@ -1,340 +1,317 @@
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-    border-right: 1px solid lightgray;
-    width: 242px;
-    height: 100dvh;
-    
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+
+  width: 242px;
+  height: 100dvh;
 }
 
-p{
-    padding-left: 15px;
+p {
+  padding-left: 15px;
 }
-
 
 /*
 LOGO img STYLES
 */
 
-
-.logo{
-    height: 60px;
-    width: 110px;
-    padding-top: 20px;
-    padding-left: 15px;
+.logo {
+  height: 60px;
+  width: 110px;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 
-.logo > img{
-    width: 100%;
-    height: 100%;
+.logo > img {
+  width: 100%;
+  height: 100%;
 }
 
 /*
 OPTIONS STYLES
 */
 
-.options{
-    padding-top: 20px;
-    padding-left: 12px;
-    flex-grow: 1;
+.options {
+  padding-top: 20px;
+  padding-left: 12px;
+  flex-grow: 1;
 }
-
 
 /* 
 HOME Div  STYLES
 */
 
-.home-container{
-    height: 52px;
-
-    
+.home-container {
+  height: 52px;
 }
 
 .home {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.home:hover{
-    border-radius: 7px;
-    background-color:  rgba(196, 196, 196, 0.295);
+.home:hover {
+  border-radius: 7px;
+  background-color: rgba(196, 196, 196, 0.295);
 }
 
-
-
-
-.inicio{
-    padding-left: 16px;
+.inicio {
+  padding-left: 16px;
 }
-
-
-
 
 /*
 SEARCH Div STYLES
 */
 
-.search-container{
-
-    height: 52px;
+.search-container {
+  height: 52px;
 }
 
-
-.search{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.search:hover{
-    background-color: rgba(196, 196, 196, 0.295);
-    border-radius: 7px;
+.search:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-.ser{
-    padding-left: 16px;
+.ser {
+  padding-left: 16px;
 }
-
 
 /*
 COMPASS Div STYLES
 */
 
-.explore-container{
-    height: 52px;
-
+.explore-container {
+  height: 52px;
 }
 
-
-.explore{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.explore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.explore:hover{
-    background-color:  rgba(196, 196, 196, 0.295);
-    border-radius: 7px;
+.explore:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-
-.exp{
-    padding-left: 16px;
+.exp {
+  padding-left: 16px;
 }
 
 /*
 REELS Div STYLES
 */
 
-.reels-container{
-    height: 52px;
+.reels-container {
+  height: 52px;
 }
 
-
-.reels{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.reels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.Ree{
-    padding-left: 16px;
+.Ree {
+  padding-left: 16px;
 }
 
-.reels:hover{
-    background-color: rgba(196, 196, 196, 0.295);
-    border-radius: 7px;
+.reels:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-.reels-button{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+.reels-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 /*
 MESSAGE Div STYLES
 */
 
-.message-container{
-    height: 52px;
+.message-container {
+  height: 52px;
 }
 
-.message{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.message:hover{
-    background-color: rgba(196, 196, 196, 0.295);
-    border-radius: 7px;
+.message:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-
-.mess{
-    padding-left: 16px;
+.mess {
+  padding-left: 16px;
 }
 /*
 NOTIFICATIONS Div STYLES
 */
 
-.notifications-container{
-    height: 52px;
+.notifications-container {
+  height: 52px;
 }
 
-.notifications{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.notifications {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.notifications:hover{
-    background-color:rgba(196, 196, 196, 0.295) ;
-    border-radius: 7px;
+.notifications:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-.notifications-button{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+.notifications-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.noti{
-    padding-left: 16px;
+.noti {
+  padding-left: 16px;
 }
 
 /*
 CREATE Div STYLES
 */
 
-.create-container{
-    height: 52px;
+.create-container {
+  height: 52px;
 }
 
-.create{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.create {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-
-.create:hover{
-    background-color: rgba(196, 196, 196, 0.295) ;
-    border-radius: 7px;
+.create:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-.create-button{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+.create-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.cre{
-    padding-left: 16px;
+.cre {
+  padding-left: 16px;
 }
 /*
 PROFILE Div STYLES
 */
 
-.profile-picture-container{
-    height: 52px;
+.profile-picture-container {
+  height: 52px;
 }
 
-.profile-picture{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.profile-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-.profile-picture > img{
-    border-radius: 200px;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+.profile-picture > img {
+  border-radius: 200px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
-
-.profile-picture:hover{
-    background-color: rgba(196, 196, 196, 0.295);
-    border-radius: 7px;
+.profile-picture:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
 /*
 MORE div STYLES
 */
 
-.more-container{
-    height: 52px;
-    padding-left: 12px;
-    padding-bottom: 18px;
+.more-container {
+  height: 52px;
+  padding-left: 12px;
+  padding-bottom: 18px;
 }
 
-.more{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-    padding: 12px 12px 12px 12px;
+.more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  padding: 12px 12px 12px 12px;
 }
 
-.more:hover{
-    background-color: rgba(196, 196, 196, 0.295);
-    border-radius: 7px;
+.more:hover {
+  background-color: rgba(196, 196, 196, 0.295);
+  border-radius: 7px;
 }
 
-.more-button{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+.more-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.mas{
-    padding-left: 12px;
+.mas {
+  padding-left: 12px;
 }

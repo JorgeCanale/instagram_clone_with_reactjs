@@ -1,21 +1,18 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 
-function Clicking(){
+function Clicking() {
+  const [likes, setLikes] = useState(0);
 
-    const [likes,setLikes] = useState(0)
+  function handleLike() {
+    setLikes(likes + 1);
+    console.log(likes);
+  }
 
-    function handleLike(){
-        setLikes(likes + 1)
-        console.log(likes)
-    }
-
-    return(
-        <div>
-            <button onClick={handleLike}>
-                click me pls
-            </button>
-        </div>
-    )
+  return (
+    <div>
+      <button onClick={handleLike}>click me pls</button>
+    </div>
+  );
 }
 
-export default Clicking
+export default Clicking;

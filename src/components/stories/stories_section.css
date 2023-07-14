@@ -1,9 +1,8 @@
-.stories_section{
-    display: flex;
-    flex-direction: row;
+.stories_section {
+  display: flex;
+  flex-direction: row;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-      
+ul {
+  display: flex;
+  flex-direction: row;
 }
