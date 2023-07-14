@@ -44,19 +44,23 @@ import "./right_sidebar.css"
                 </div>
             </div>
             <div className=" flex flex-col box-border content-stretch self-auto static justify-start items-start grow-0  px-16px mb-8px">
-                <div className=" pb-38px">
+                <div className=" pb-38px w-full">
                     <nav className="flex flex-col mb-16px max-w-full">
-                        <ul className=" list-none grow pb-4px box-content">
-                            <li className="inline-flex flex-row m-0 align-baseline ">
-                                <a href="https://www.linkedin.com/in/jorge-canale-fullstack-react/">LinkedIn</a>
+                        <ul className=" list-none grow mb-4px box-content">
+                            <li className="inline-flex flex-row m-0 align-baseline list-none ">
+                                <a href="https://www.linkedin.com/in/jorge-canale-fullstack-react/">
+                                    <span className="block break-words whitespace-pre-line relative max-w-full m-0 ">
+                                    LinkedIn
+                                    </span>
+                                </a>
                             </li>
-                            <li className="inline-flex flex-row m-0 align-baseline ">
-                                <a href="https://github.com/JorgeCanale">Github</a>
+                            <li className="inline-flex flex-row m-0 align-baseline list-none ">
+                                <a href="https://github.com/JorgeCanale">
+                                    <span className="block break-words whitespace-pre-line relative max-w-full m-0 ">
+                                    Github
+                                    </span>
+                                </a>
                             </li>
-                            <li className="inline-flex flex-row m-0  align-baseline">
-                                <a href="https://github.com/JorgeCanale">Github</a>
-                            </li>
-
                         </ul>
                     </nav>
                     <span></span>
