@@ -24,9 +24,7 @@
     justify-content: flex-start;
 }
 
-li {
-    list-style-type: none;
-}
+
 
 .suggestions_container{
     height: auto;
