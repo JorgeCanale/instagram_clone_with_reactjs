@@ -235,7 +235,7 @@ function SideBar() {
             <div className=" absolute box-border px-16px pb-16px pt-25px h-75px mb-24px w-full">
               <a
                 className="inline bg-transparent box-border cursor-pointer outline-none"
-                href="a"
+                href="/home"
               >
                 <div className="items-stretch box-border flex flex-col relative shrink-0 cursor-pointer mt-8px">
                   <img
@@ -255,13 +255,13 @@ function SideBar() {
               className="home-container"
               onClick={() => handleSelected("home")}
             >
-              <a>
-                <div className="home">
+              <a className="inline bg-transparent box-border cursor-pointer text-inherit outline-none" href="/home">
+                <div className="inline-flex flex-row box-border p-12px my-4px items-center w-full text-inherit cursor-pointer">
                   {home ? (
-                    <div class="icon1">
+                    <div class="h-24px w-24px box-border cursor-pointer">
                       <svg
                         aria-label="Inicio"
-                        className="Icon"
+                        className="block relative cursor-pointer"
                         color="rgb(0, 0, 0)"
                         fill="rgb(0, 0, 0)"
                         height="24"
@@ -273,10 +273,10 @@ function SideBar() {
                       </svg>
                     </div>
                   ) : (
-                    <div className="icon2">
+                    <div className="h-24px w-24px box-border cursor-pointer">
                       <svg
                         aria-label="Inicio"
-                        class="_ab6-"
+                        className="block relative cursor-pointer text-inherit"
                         color="rgb(0, 0, 0)"
                         fill="rgb(0, 0, 0)"
                         height="24"
