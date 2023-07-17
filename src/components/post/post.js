@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import LittleKittens from "../../assets/kittens.jpg";
-import profile from "../../assets/pfp.jfif";
+import React, { useState } from "react"
+import LittleKittens from "../../assets/kittens.jpg"
+import profile from "../../assets/pfp.jfif"
 
 function Post({ account }) {
-  const comments = "todavia no hice la seccion de comentarios del post :(";
+  const comments = "todavia no hice la seccion de comentarios del post :("
 
   return (
     <div className="flex flex-col w-full h-full pb-16px mb-24px  border-b border-b-black ">
@@ -263,7 +263,7 @@ function Post({ account }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Post;
+export default Post

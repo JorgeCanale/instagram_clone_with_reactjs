@@ -19,7 +19,6 @@ import {
   SearchIcon,
   SearchSelectedIcon,
 } from "../iconos/iconos_left_sidebar"
-import "./sidebar.css"
 
 function SideBar() {
   const [home, setHome] = useState(false)
@@ -214,7 +213,7 @@ function SideBar() {
           function: setCreate,
         })
         break
-      case "more": 
+      case "more":
         if (current.marked) {
           if (current.name !== value) {
             current.function(!current.value)
@@ -527,7 +526,9 @@ function SideBar() {
                     )}
                   </div>
                   <div className="pl-16px h-24px w-fit box-border items-center">
-                    <div className="block relative w-full cursor-pointer">More</div>
+                    <div className="block relative w-full cursor-pointer">
+                      More
+                    </div>
                   </div>
                 </div>
               </div>

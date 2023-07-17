@@ -1,6 +1,5 @@
-import React from "react";
-import ProfileSlice from "./profile_slice";
-import "./right_sidebar.css";
+import React from "react"
+import ProfileSlice from "./profile_slice"
 
 function Right_side_bar() {
   const sugestedProfiles = [
@@ -9,7 +8,7 @@ function Right_side_bar() {
     { user: "_deleted__bnjx", account: "Benji" },
     { user: "_deleted__bnjx", account: "Benji" },
     { user: "_deleted__bnjx", account: "Benji" },
-  ];
+  ]
 
   return (
     <>
@@ -55,7 +54,7 @@ function Right_side_bar() {
                           />
                         </div>
                       </div>
-                    );
+                    )
                   })}
               </div>
             </div>
@@ -86,7 +85,7 @@ function Right_side_bar() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Right_side_bar;
+export default Right_side_bar

@@ -1,7 +1,6 @@
-import React from "react";
-import Story from "./story";
-import pfp from "../../assets/meica_pfp.jpg";
-import "./stories_section.css";
+import React from "react"
+import Story from "./story"
+import pfp from "../../assets/benji_pfp.jpg"
 
 function StoriesSection() {
   const users = [
@@ -10,22 +9,22 @@ function StoriesSection() {
     { pfp: pfp, user: "user3" },
     { pfp: pfp, user: "user4" },
     { pfp: pfp, user: "user5" },
-  ];
+  ]
 
   return (
-    <div className="stories_section">
-      <ul>
+    <div className="flex flex-row">
+      <ul className="flex flex-row">
         {users &&
           users.map((user) => {
             return (
-              <li>
+              <li className="">
                 <Story pfps={user.pfp} user_name={user.user} />
               </li>
-            );
+            )
           })}
       </ul>
     </div>
-  );
+  )
 }
 
-export default StoriesSection;
+export default StoriesSection

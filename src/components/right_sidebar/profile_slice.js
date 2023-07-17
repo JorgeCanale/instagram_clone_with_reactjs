@@ -1,5 +1,5 @@
-import React from "react";
-import pfp from "../../assets/benji_pfp.jpg";
+import React from "react"
+import pfp from "../../assets/benji_pfp.jpg"
 
 function ProfileSlice({ uname, aname, alink }) {
   return (
@@ -62,7 +62,7 @@ function ProfileSlice({ uname, aname, alink }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProfileSlice;
+export default ProfileSlice
